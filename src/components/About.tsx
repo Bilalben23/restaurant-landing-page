@@ -3,7 +3,7 @@ import { ABOUT } from "../constants";
 
 export default function About() {
     return (
-        <section className="container mx-auto mb-8 p-5" id="about">
+        <section className="container p-5 mx-auto mb-8" id="about">
             <h3 className="mb-8 text-3xl tracking-tighter text-center lg:text-4xl">About Us</h3>
 
             <div className="flex flex-wrap">
@@ -12,6 +12,7 @@ export default function About() {
                         src={about}
                         alt="Chefs cook"
                         className="rounded-3xl lg:-rotate-3"
+                        loading="lazy"
                     />
                 </div>
                 <div className="w-full px-2 lg:w-1/2">

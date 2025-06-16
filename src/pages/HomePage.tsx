@@ -1,4 +1,5 @@
 import About from '../components/About';
+import ContactSection from '../components/ContactSection';
 import Dishes from '../components/Dishes';
 import Expertise from '../components/Expertise';
 import HeroSection from '../components/HeroSection';
@@ -17,6 +18,7 @@ export default function HomePage() {
                 <Mission />
                 <Expertise />
                 <Review />
+                <ContactSection />
             </main>
         </>
     )

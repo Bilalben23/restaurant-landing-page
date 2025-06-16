@@ -9,7 +9,7 @@ import customer4 from "../assets/customer4.jpeg";
 
 export default function Review() {
     return (
-        <section className='container p-5 mt-12 mb-8 mx-auto' id='review'>
+        <section className='container p-5 mx-auto mt-12 mb-8' id='review'>
 
             <div className='flex flex-col'>
                 <p className='mb-10 text-3xl font-light leading-normal tracking-tighter lg:mx-40 lg:mt-40 lg:text-lg'>
@@ -19,7 +19,7 @@ export default function Review() {
                     <img
                         src={xaviour}
                         alt={REVIEW.name}
-                        className='size-20 border rounded-full'
+                        className='border rounded-full size-20'
                     />
                     <div className='tracking-tighter'>
                         <p>{REVIEW.name}</p>
@@ -28,7 +28,7 @@ export default function Review() {
                 </div>
             </div>
 
-            <div className='mt-14 flex md:flex-row justify-center gap-4 flex-col items-center'>
+            <div className='flex flex-col items-center justify-center gap-4 mt-14 md:flex-row'>
                 {
                     [customer1, customer2, customer3, customer4].map((img, index) => (
                         <img
@@ -36,6 +36,7 @@ export default function Review() {
                             src={img}
                             alt={`customer${index}`}
                             className='aspect-[16/11] w-full md:w-80 object-cover rounded-tl-3xl rounded-br-3xl'
+                            loading='lazy'
                         />
                     ))
                 }

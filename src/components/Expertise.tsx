@@ -14,6 +14,7 @@ export default function Expertise() {
                                     src={cuisine.image}
                                     alt={cuisine.title}
                                     className="h-auto rounded-3xl"
+                                    loading="lazy"
                                 />
 
                             </div>
