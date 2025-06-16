@@ -4,6 +4,7 @@ import Expertise from '../components/Expertise';
 import HeroSection from '../components/HeroSection';
 import Mission from '../components/Mission';
 import Navbar from '../components/Navbar';
+import Review from '../components/Review';
 
 export default function HomePage() {
     return (
@@ -15,6 +16,7 @@ export default function HomePage() {
                 <About />
                 <Mission />
                 <Expertise />
+                <Review />
             </main>
         </>
     )

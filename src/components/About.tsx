@@ -3,11 +3,11 @@ import { ABOUT } from "../constants";
 
 export default function About() {
     return (
-        <section className="container mx-auto mb-8" id="about">
+        <section className="container mx-auto mb-8 p-5" id="about">
             <h3 className="mb-8 text-3xl tracking-tighter text-center lg:text-4xl">About Us</h3>
 
             <div className="flex flex-wrap">
-                <div className="w-full p-4 md:w-1/2">
+                <div className="w-full py-4 md:px-4 md:w-1/2">
                     <img
                         src={about}
                         alt="Chefs cook"

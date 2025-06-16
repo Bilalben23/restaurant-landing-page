@@ -14,7 +14,7 @@ const DishCard: FC<DishCardProps> = ({ image, title, description }) => {
             <img
                 src={image}
                 alt={title}
-                className='p-2 rounded-3xl'
+                className='py-2 rounded-3xl'
             />
             <div className="p-2">
                 <p className='mb-2 text-2xl font-bold tracking-tighter'>{title}</p>

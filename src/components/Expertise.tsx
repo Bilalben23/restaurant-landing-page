@@ -2,7 +2,7 @@ import { CUISINES } from "../constants";
 
 export default function Expertise() {
     return (
-        <section id="expertise">
+        <section className="p-5" id="expertise">
             <h5 className="my-8 text-3xl tracking-tighter text-center lg:text-4l">Our Expertise</h5>
             <div className="container mx-auto">
                 {

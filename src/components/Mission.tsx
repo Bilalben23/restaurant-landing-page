@@ -4,7 +4,7 @@ import { MISSION } from "../constants";
 
 export default function Mission() {
     return (
-        <section id='mission'>
+        <section className="p-5" id='mission'>
             <div className="container mx-auto text-center">
                 <h4 className='mb-8 text-3xl lg:text-4xl'>Our Mission</h4>
 
