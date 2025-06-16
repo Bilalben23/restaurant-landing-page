@@ -1,5 +1,7 @@
 import about from "../assets/about.jpeg";
 import { ABOUT } from "../constants";
+import { motion } from "framer-motion";
+
 
 export default function About() {
     return (
@@ -16,9 +18,27 @@ export default function About() {
                     />
                 </div>
                 <div className="w-full px-2 lg:w-1/2">
-                    <p className="text-4xl tracking-tighter lg:text-6xl">{ABOUT.header}</p>
-                    <div className="h-2 mt-1 mb-8 w-36 lg:-rotate-3 bg-rose-300"></div>
-                    <p className="m-8 text-2xl leading-tight lg:max-w-xl">{ABOUT.content}</p>
+                    <motion.p
+                        initial={{ opacity: 1, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                        className="text-4xl tracking-tighter lg:text-6xl"
+                    >{ABOUT.header}</motion.p>
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.4 }}
+                        className="h-2 mt-1 mb-8 w-36 lg:-rotate-3 bg-rose-300"
+                    ></motion.div>
+                    <motion.p
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.6 }}
+                        className="m-8 text-2xl leading-tight lg:max-w-xl"
+                    >{ABOUT.content}</motion.p>
                 </div>
             </div>
         </section>
