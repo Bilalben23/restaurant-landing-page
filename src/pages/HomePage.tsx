@@ -1,5 +1,6 @@
 import About from '../components/About';
 import Dishes from '../components/Dishes';
+import Expertise from '../components/Expertise';
 import HeroSection from '../components/HeroSection';
 import Mission from '../components/Mission';
 import Navbar from '../components/Navbar';
@@ -13,6 +14,7 @@ export default function HomePage() {
                 <Dishes />
                 <About />
                 <Mission />
+                <Expertise />
             </main>
         </>
     )

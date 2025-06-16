@@ -61,8 +61,8 @@ export default function Navbar() {
                     </button>
 
 
-                    <nav className={`absolute left-0 w-full top-20 transition-transform ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
-                        <ul className='flex flex-col items-center w-full gap-y-4'>
+                    <nav className={`absolute p-4 backdrop-blur-xl left-0 w-full top-20 transition-transform ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
+                        <ul className='flex flex-col w-full gap-y-4'>
                             {
                                 LINKS.map(link => (
                                     <li key={link.id}>

@@ -87,7 +87,7 @@ export const ABOUT = {
 export const MISSION =
   "At our restaurant, our mission is to create delicious and memorable dining experiences.";
 
-export const CUSINES = [
+export const CUISINES = [
   {
     number: "01.",
     image: italian,
