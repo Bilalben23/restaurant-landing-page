@@ -1,3 +1,4 @@
+import About from '../components/About'
 import Dishes from '../components/Dishes'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
@@ -9,6 +10,7 @@ export default function HomePage() {
             <HeroSection />
             <main className='overflow-x-hidden antialiased text-neutral-200'>
                 <Dishes />
+                <About />
             </main>
         </>
     )
