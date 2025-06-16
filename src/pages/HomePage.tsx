@@ -1,7 +1,8 @@
-import About from '../components/About'
-import Dishes from '../components/Dishes'
-import HeroSection from '../components/HeroSection'
-import Navbar from '../components/Navbar'
+import About from '../components/About';
+import Dishes from '../components/Dishes';
+import HeroSection from '../components/HeroSection';
+import Mission from '../components/Mission';
+import Navbar from '../components/Navbar';
 
 export default function HomePage() {
     return (
@@ -11,6 +12,7 @@ export default function HomePage() {
             <main className='overflow-x-hidden antialiased text-neutral-200'>
                 <Dishes />
                 <About />
+                <Mission />
             </main>
         </>
     )
