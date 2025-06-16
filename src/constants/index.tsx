@@ -126,16 +126,16 @@ export const CONTACT = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+    href: "#",
+    icon: <FaFacebook fontSize={30} className="transition hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
+    href: "#",
+    icon: <FaInstagram fontSize={30} className="transition hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    href: "#",
+    icon: <FaXTwitter fontSize={30} className="transition hover:opacity-80" />,
   },
 ];
