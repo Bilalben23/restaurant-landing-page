@@ -4,7 +4,7 @@ import hero from "../assets/hero.jpeg";
 
 export default function HeroSection() {
     return (
-        <section className='relative flex items-center justify-center h-screen'>
+        <section className='relative flex items-center justify-center h-screen antialiased text-neutral-200'>
             <div className="absolute inset-0 overflow-hidden -z-20 size-full">
                 <video
                     autoPlay

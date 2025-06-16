@@ -24,7 +24,7 @@ export default function Navbar() {
 
 
     return (
-        <header className='fixed z-50 flex items-center justify-center w-full top-3'>
+        <header className='fixed z-50 flex items-center justify-center w-full antialiased top-3 text-neutral-200'>
             <div className='relative flex items-center justify-between w-full p-6 gap-x-8 md:shadow-lg md:rounded-full md:max-w-2xl lg:max-w-3xl backdrop-blur-xl'>
                 <div>
                     <img
